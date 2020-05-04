@@ -10,11 +10,11 @@ a python module (created by me 😉) to implement bst, bbst, avl trees and more 
 
 ### Overview:
 [binarytree](https://pypi.org/project/binarytree/) is a great module to implement trees in python. Since python doesn't support pointers;
-implementing binary tree functions was a bit tricky, but no more 😁. **pybush** brings this functionality using binarytree module. Now you can do everything from creating a tree, printing the tree, implement avl, do rotations and other functions.
+implementing binary tree functions was a bit tricky, but no more 😁. **pybush** brings this functionality using binarytree module. Now you can do everything - create a tree, print the tree, implement avl, do rotations and other functions.
 
-binarytree has a pretty print functionality, which prints the tree in a visual way that we normally see while learning.
+Binarytree has a pretty print functionality, which prints the tree in a way that we normally visualise while learning it.
 ```
-example: a level order bst [7,3,11,1,5,9,13,0,2,4,6,8,10,12,14] will look like this
+Example: a level order bst [7,3,11,1,5,9,13,0,2,4,6,8,10,12,14] will look like this
 
 
             ______7_______
@@ -25,7 +25,7 @@ example: a level order bst [7,3,11,1,5,9,13,0,2,4,6,8,10,12,14] will look like t
      / \     / \     / \       /   \
     0   2   4   6   8   10    12    14
 ```
-binarytree do have a lot of functionalities, but pybush extends it...
+binarytrees have a lot of functionalities, and pybush helps extend it...
 
 ## Getting started 
 ```
