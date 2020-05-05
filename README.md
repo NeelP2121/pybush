@@ -45,7 +45,7 @@ class Node(Node):
         self.count = 1
 ```
 ## Funtions for BBST (Balance binary search tree)
-* create a bbst 
+* Create a bbst: 
 ```
 >>> values = [1,2,3,4,5,6,7,8]
 >>> tree_root = create_bbst(values,0,len(values)-1)
@@ -59,7 +59,7 @@ class Node(Node):
              \
               8              
 ```
-* add a Node
+* Add a Node:
 ```
 >>> add(tree_root,6.5)
 Node(6.5)
@@ -73,7 +73,7 @@ Node(6.5)
            / \
         6.5   8
 ```
-* delete a Node
+* Delete a Node:
 ```
 >>> delete(tree_root,7)
 >>> print(tree_root)
@@ -87,13 +87,13 @@ Node(6.5)
                 8
 ```
 
-* search for a Node
+* Search for a Node:
 ```
 >>> search(tree_root,3)
 Node(3)
 ```
 
-* Predecessor and Successor
+* Predecessor and Successor:
 ```
 >>> successor(tree_root,4)
 Node(5)
@@ -101,7 +101,7 @@ Node(5)
 Node(5)
 ```
 
-* least common ancestor 
+* Least common ancestor:
 ```
 >>> lca(tree_root,5,8)
 Node(6)
@@ -116,7 +116,7 @@ Node(6)
                 8
 ```
 
-* rangecount and rangelist
+* Rangecount and Rangelist:
 ```
 >>> rangecount(tree_root,1,5)
 5
